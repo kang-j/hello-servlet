@@ -16,7 +16,7 @@ public class HelloServlet extends HttpServlet {
 			throws ServletException, IOException {
 		res.setContentType("text/plain;charset=utf-8");
 		PrintWriter pw = res.getWriter();
-		pw.print("Hello World V1!!!");
+		pw.print("Hello World V10!!!");
 		pw.flush();
 	}
 }
