@@ -27,7 +27,7 @@ public class HelloServletTest {
 
 
 		assertThat(res.getContentType(), equalTo("text/plain;charset=utf-8"));
-		assertThat(writer.toString(), equalTo("Hello World V04!!!"));
+		assertThat(writer.toString(), equalTo("Hello World V01!!!"));
 	}
 
 	static class MockHttpServletResponse implements HttpServletResponse {
